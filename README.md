@@ -1,10 +1,10 @@
 ## Hi there 👋
 
-![jimboid's Stats](https://github-readme-stats.vercel.app/api?username=jimboid&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+<div align="center">
+   <img width="400" src="https://github-readme-stats.vercel.app/api?username=jimboid&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" />
+   <img width="425" src="https://github-readme-streak-stats.herokuapp.com/?user=jimboid&theme=vue-dark&hide_border=true" />
+</div>
 
-![jimboid's Streak](https://github-readme-streak-stats.herokuapp.com/?user=jimboid&theme=vue-dark&hide_border=true)
-
-![jimboid's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jimboid&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
 <!--
 **jimboid/jimboid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
