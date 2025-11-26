@@ -1,5 +1,22 @@
 ## Hi there 👋
 
+```python
+class Jimboid:
+
+    def __init__(self):
+        self.username = 'jimboid'
+        self.name = 'James Gebbie-Rayet'
+        self.position = 'Biomolecular Simulation Group Leader'
+
+    def __str__(self):
+        return f'{self.name} | {self.position}'
+
+
+if __name__ == '__main__':
+    me = Jimboid()
+    print(me)
+```
+
 ### Languages
 
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python&logoColor=white)
@@ -9,7 +26,7 @@
 
 ### Technologies
 
-![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=white)
+![AWS](https://img.shields.io/badge/-Amazon%20AWS-000?&logo=Amazon-AWS&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Microsoft%20Azure-000?style=flat&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes&logoColor=white)
