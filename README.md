@@ -34,6 +34,6 @@ if __name__ == '__main__':
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis&logoColor=white)
 
 <div align="center">
-   <img width="400" src="https://github-readme-stats.vercel.app/api?username=jimboid&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" />
+   <img width="400" src="./profile/stats.svg" />
    <img width="425" src="https://github-readme-streak-stats.herokuapp.com/?user=jimboid&theme=vue-dark&hide_border=true" />
 </div>
