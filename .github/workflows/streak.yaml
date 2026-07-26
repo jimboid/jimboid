@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v7.0.1
 
       - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats@main
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           options: user=${{ github.repository_owner }}&theme=vue-dark&disable_animations=false
           path: profile/streak.svg
