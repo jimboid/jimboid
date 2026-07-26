@@ -35,5 +35,5 @@ if __name__ == '__main__':
 
 <div align="center">
    <img width="400" src="./profile/stats.svg" />
-   <img width="425" src="https://github-readme-streak-stats.herokuapp.com/?user=jimboid&theme=vue-dark&hide_border=true" />
+   <img width="425" src="./profile/streak.svg" />
 </div>
