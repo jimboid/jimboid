@@ -19,7 +19,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2.0.1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=vue-dark&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=vue&hide_border=true
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
