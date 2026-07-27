@@ -34,6 +34,23 @@ if __name__ == '__main__':
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis&logoColor=white)
 
 <div align="center">
-   <img width="400" src="./profile/stats.svg" />
-   <img width="425" src="./profile/streak.svg" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile/stats-dark.svg">
+    <img
+      width="400"
+      src="./profile/stats-light.svg"
+      alt="GitHub statistics">
+  </picture>
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile/streak-dark.svg">
+    <img
+      width="425"
+      src="./profile/streak-light.svg"
+      alt="GitHub contribution streak">
+  </picture>
 </div>
