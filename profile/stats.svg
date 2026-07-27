@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">James Gebbie-Rayet's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 3764, Total PRs: 1504, Total Issues: 251, Contributed to (last year): 44</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 3768, Total PRs: 1505, Total Issues: 251, Contributed to (last year): 44</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 88.16096660196911;
+        stroke-dashoffset: 88.16095303931048;
       }
     }
   
