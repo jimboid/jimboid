@@ -20,14 +20,14 @@ jobs:
       - name: Generate light streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
-          options: user=${{ github.repository_owner }}&theme=vue&disable_animations=false&hide_border=true
+          options: user=${{ github.repository_owner }}&theme=vue&disable_animations=false&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/streak-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate dark streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
-          options: user=${{ github.repository_owner }}&theme=vue-dark&disable_animations=false&hide_border=true
+          options: user=${{ github.repository_owner }}&theme=vue-dark&disable_animations=false&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
