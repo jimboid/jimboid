@@ -19,7 +19,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=vue&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&include_all_commits=true&include_all_commits=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=vue&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&include_all_commits=true&count_private=true
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=vue-dark&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&include_all_commits=true&include_all_commits=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=vue-dark&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&include_all_commits=true&count_private=true
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -35,7 +35,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2.0.2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&include_all_commits=true&include_all_commits=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&include_all_commits=true&count_private=true
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
