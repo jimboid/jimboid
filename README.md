@@ -4,9 +4,9 @@
 class Jimboid:
 
     def __init__(self):
-        self.username = 'jimboid'
-        self.name = 'James Gebbie-Rayet'
-        self.position = 'Biomolecular Simulation Group Leader'
+        self.username = "jimboid"
+        self.name = "James Gebbie-Rayet"
+        self.position = "Biomolecular Simulation Group Leader"
         self.languages = ["Python", "C", "C++", "Fortran", "HTML", "PHP", "JS", "CSS"]
         self.technologies = ["AWS", "Azure", "Kubernetes", "Docker", 
                              "Linux", "SQL", "Redis", "CUDA", "MPI", "OpenMP"]
