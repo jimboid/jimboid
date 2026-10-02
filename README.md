@@ -8,7 +8,8 @@ class Jimboid:
         self.name = 'James Gebbie-Rayet'
         self.position = 'Biomolecular Simulation Group Leader'
         self.languages = ["Python", "C", "C++", "Fortran", "HTML", "PHP", "JS", "CSS"]
-        self.technologies = ["AWS", "Azure", "Kubernetes", "Docker", "Linux", "SQL", "Redis", "CUDA", "MPI", "OpenMP"]
+        self.technologies = ["AWS", "Azure", "Kubernetes", "Docker", 
+                             "Linux", "SQL", "Redis", "CUDA", "MPI", "OpenMP"]
 
     def __str__(self):
         return f'{self.name} | {self.position}'
